@@ -66,6 +66,7 @@
     <Compile Include="CustomRenderes\CustomTextCellRenderer.cs" />
     <Compile Include="CustomRenderes\CustomViewCellRenderer.cs" />
     <Compile Include="Dependencies\Share.cs" />
+    <Compile Include="Effects\SelectedEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -149,11 +150,17 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\xml\file_provider_paths.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="CustomRenderes\" />
     <Folder Include="Dependencies\" />
+    <Folder Include="Resources\xml\" />
+    <Folder Include="Effects\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ExpensesApp\ExpensesApp.csproj">
